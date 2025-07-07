@@ -57,9 +57,18 @@ GEM
       lint_roller (~> 1.1)
       rubocop (>= 1.72.1)
     ruby-progressbar (1.13.0)
+    sqlite3 (2.7.2-aarch64-linux-gnu)
+    sqlite3 (2.7.2-aarch64-linux-musl)
+    sqlite3 (2.7.2-arm-linux-gnu)
+    sqlite3 (2.7.2-arm-linux-musl)
+    sqlite3 (2.7.2-arm64-darwin)
+    sqlite3 (2.7.2-x86_64-darwin)
+    sqlite3 (2.7.2-x86_64-linux-gnu)
+    sqlite3 (2.7.2-x86_64-linux-musl)
     unicode-display_width (3.1.4)
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
+    zeitwerk (2.7.3)
 
 PLATFORMS
   aarch64-linux-gnu
@@ -77,6 +86,8 @@ DEPENDENCIES
   rake
   rubocop
   rubocop-rake
+  sqlite3
+  zeitwerk
 
 BUNDLED WITH
    2.6.7

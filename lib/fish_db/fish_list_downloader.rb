@@ -5,7 +5,7 @@ require 'fileutils'
 require 'httparty'
 require 'nokogiri'
 
-module FishDb
+module FishDB
   class FishListDownloader
     def initialize(output, interval = 0.5)
       @output = output
