@@ -1,0 +1,23 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore other unneeded files.
+.DS_Store
+/.config
+
+# Ignore Rake related files
+.rake_tasks~
+
+# Ignore RuboCop cache files
+/.rubocop_cache
+
+# Ignore output files
+/output
